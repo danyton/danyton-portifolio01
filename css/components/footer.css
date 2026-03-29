@@ -1,0 +1,120 @@
+footer {
+  background: linear-gradient(135deg, var(--light-tertiary-color) 0%, rgba(243, 232, 255, 0.8) 100%);
+  transition: background-color 0.3s ease;
+  border-top: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+  animation: fadeInUp 0.8s ease;
+}
+
+footer .footer__content h2 {
+  animation: fadeInUp 0.8s ease both;
+}
+
+footer .footer__content > p:first-of-type {
+  animation: fadeInUp 0.8s ease 0.1s both;
+}
+
+footer .footer__content .footer__contact {
+  animation: fadeInUp 0.8s ease 0.2s both;
+  border-top: 1px solid rgba(124, 58, 237, 0.2);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+footer .footer__content .footer__contact span:hover {
+  filter: brightness(0.8);
+}
+
+footer .footer__content ul {
+  animation: fadeInUp 0.8s ease 0.3s both;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+footer .footer__content ul li:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(236, 72, 153, 0.1));
+  border: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+footer .footer__content ul a:hover {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(236, 72, 153, 0.15));
+  transform: translateY(-3px);
+  border-color: var(--secondary-color);
+  box-shadow: var(--shadow-md);
+}
+
+footer .footer__content ul a img {
+  width: 2rem;
+  height: 2rem;
+  transition: filter 0.3s ease;
+}
+
+footer .footer__content ul a:hover img {
+  filter: brightness(0.8) drop-shadow(0 0 2px rgba(60, 65, 92, 0.3));
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  opacity: 0.7;
+  animation: fadeInUp 0.8s ease 0.4s both;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(124, 58, 237, 0.1);
+}
+
+footer .footer__content .footer__copyright:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footer__content {
+    padding: 4rem 2rem 1rem;
+  }
+
+  footer .footer__content h2 {
+    animation: fadeInUp 0.8s ease both;
+  }
+
+  footer .footer__content > p:first-of-type {
+    animation: fadeInUp 0.8s ease 0.1s both;
+  }
+
+  footer .footer__content .footer__contact {
+    animation: fadeInUp 0.8s ease 0.15s both;
+  }
+
+  footer .footer__content ul {
+    animation: fadeInUp 0.8s ease 0.2s both;
+  }
+
+  footer .footer__content .footer__copyright {
+    animation: fadeInUp 0.8s ease 0.25s both;
+  }
+}

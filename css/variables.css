@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --gray: #f1f5f9;
+  --gray-dark: #94a3b8;
+  --black: #0f172a;
+  
+  /* Primary Colors - Modern Blue/Purple Gradient */
+  --primary-color: #0066ff;
+  --primary-light: #3b82f6;
+  --secondary-color: #7c3aed;
+  --secondary-light: #a78bfa;
+  
+  /* Dark Colors */
+  --dark-secondary-color: #5a2c9e;
+  --dark-tertiary: #4c1d95;
+  
+  /* Accent Colors */
+  --accent-color: #ec4899;
+  --accent-light: #f472b6;
+  --success-color: #10b981;
+  
+  /* Light Colors */
+  --tertiary-color: #a78bfa;
+  --light-tertiary-color: #f3e8ff;
+  
+  /* Text Colors */
+  --text-color: #1e293b;
+  --text-secondary: #64748b;
+  
+  /* Shadows & Effects */
+  --shadow-sm: 0 0.2rem 0.5rem rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 0.4rem 1rem rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 1rem 2.5rem rgba(124, 58, 237, 0.15);
+  
+  /* Font */
+  --font-family: 'DM Sans', sans-serif;
+}
